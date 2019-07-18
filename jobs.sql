@@ -2,6 +2,49 @@
 
 
 
+-- workforce 1
+-- --------------------------------------------------------
+CREATE TABLE workforce1 (
+    location                 varchar(5000) , -- which industry
+    address                  varchar (5000), -- url link to the resume
+    worker                   varchar(5000) -- this will be turned to a child table
+);
+
+CREATE TABLE workforce1_APPLICATIONS AS
+TABLE district_1
+WITH NO DATA;
+-- you need a lot of child tables in your life man
+
+
+
+INSERT INTO workforce1_APPLICATIONS (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                website,
+                website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'UPS',
+    '2019-07-18 13:28:30-04',
+    'yes',-- --
+    '136-40 Springfield Gardens, Springfield Gardens NY, 11413',
+    0,
+    'ups.com',
+    'you have login info'
+);
+
+
 -- resmers and cover letters
 -- --------------------------------------------------------
 CREATE TABLE portfolio (
@@ -16,18 +59,20 @@ CREATE TABLE portfolio (
 -- --------------------------------------------------------
 -- CREATE TABLE applications (
 CREATE TABLE district_1 (
-    company_NAME         varchar(5000) ,
-    phone_number         varchar (500),
-    email                varchar (200),
-    date_of_visit        timestamp,
-    applied              varchar(100), -- really should be a yes or no
-    person               varchar (200), -- short for person of interest
-    address              varchar (500),
-    fax                  varchar(200),
-    response             varchar(1000),
-    follow_UP,website,website_INSTRUCTIONS             int,     -- amnt of times followed up
-    website              varchar(10000),
-    website_INSTRUCTIONS varchar(100000)
+    company_NAME                varchar(5000) ,
+    phone_NUMBER                varchar (500),
+    email                       varchar (200),
+    date_OF_VISIT               timestamp,
+    applied                     varchar(100), -- really should be a yes or no
+    person                      varchar (200), -- short for person of interest
+    address                     varchar (500),
+    fax                         varchar(200),
+    response                    varchar(1000),
+    follow_UP                   int,     -- amnt of times followed up
+    website                     varchar(10000),
+    website_INSTRUCTIONS        varchar(100000),
+    appointment                 varchar(1000),
+    appointment_INSTRUCTIONS    varchar(100000)
 );
 
 -- district 1
@@ -35,6 +80,8 @@ CREATE TABLE district_1 (
 
 ALTER TABLE district_1 ADD COLUMN website varchar(10000);
 ALTER TABLE district_1 ADD COLUMN website_INSTRUCTIONS varchar(100000);
+ALTER TABLE district_1 ADD COLUMN appointment varchar(1000);
+ALTER TABLE district_1 ADD COLUMN appointment_INSTRUCTIONS varchar(100000);
 response
 'no job at this time' - call again later
 --  --------------------------------------------------------
@@ -48,9 +95,9 @@ WITH NO DATA;
 
 INSERT INTO district_1 (
                 company_NAME,
-                phone_number,
+                phone_NUMBER,
                 -- email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 person,
                 address,
@@ -59,6 +106,9 @@ INSERT INTO district_1 (
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
             )
     VALUES (
     'Enterprise Washington Garage',
@@ -73,9 +123,9 @@ INSERT INTO district_1 (
 
 INSERT INTO district_1 (
                 company_NAME,
-                phone_number,
+                phone_NUMBER,
                 -- email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 -- person,
                 address,
@@ -84,6 +134,9 @@ INSERT INTO district_1 (
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
             )
     VALUES (
     'Isabella',
@@ -97,9 +150,9 @@ INSERT INTO district_1 (
 
 INSERT INTO district_1 (
                 company_NAME,
-                phone_number,
+                phone_NUMBER,
                 email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 -- person,
                 address,
@@ -108,6 +161,9 @@ INSERT INTO district_1 (
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
             )
     VALUES (
     'All creatures vet hospial',
@@ -122,9 +178,9 @@ INSERT INTO district_1 (
 
 INSERT INTO district_1 (
                 company_NAME,
-                -- phone_number,
+                -- phone_NUMBER,
                 email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 person,
                 address,
@@ -133,6 +189,7 @@ INSERT INTO district_1 (
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
+                -- add_HELPER appointment, appointment_INSTRUCTIONS
             )
     VALUES (
     'Realty within reach',
@@ -149,9 +206,9 @@ UPDATE district_1 SET applied = 'yes' WHERE  company_NAME = 'Realty within reach
 
 INSERT INTO district_1 (
                 company_NAME,
-                phone_number,
+                phone_NUMBER,
                 -- email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 -- person,
                 -- address,
@@ -160,6 +217,9 @@ INSERT INTO district_1 (
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
             )
     VALUES (
     'Citi security',
@@ -174,9 +234,9 @@ INSERT INTO district_1 (
 
 INSERT INTO district_1 (
                 company_NAME,
-                -- phone_number,
+                -- phone_NUMBER,
                 -- email,
-                date_of_visit,
+                date_OF_VISIT,
                 applied,
                 -- person,
                 address,
@@ -185,6 +245,9 @@ INSERT INTO district_1 (
                 follow_UP,
                 website
                 -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
             )
     VALUES (
     'Blink Fitness',
@@ -196,6 +259,34 @@ INSERT INTO district_1 (
 );
 
 
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Weeksville Heritage Center',
+    '718-756-5250 ext 300',
+    'info@weeksvillesociety.org',
+    '2019-07-18 12:44:30-04',
+    'yes need to email',-- --
+    '158 Buffalo Ave  Brooklyn, NY 11213',
+    0
+
+);
 
 
 
