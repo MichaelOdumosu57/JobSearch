@@ -45,6 +45,35 @@ INSERT INTO workforce1_APPLICATIONS (
 );
 
 
+
+INSERT INTO workforce1_APPLICATIONS (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                website,
+                website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'UPS',
+    '2019-07-18 13:28:30-04',
+    'yes',-- --
+    '136-40 Springfield Gardens, Springfield Gardens NY, 11413',
+    0,
+    'ups.com',
+    'you have login info'
+);
+
+
 -- resmers and cover letters
 -- --------------------------------------------------------
 CREATE TABLE portfolio (
@@ -102,7 +131,7 @@ INSERT INTO district_1 (
                 person,
                 address,
                 -- fax,
-                -- response,
+                response,
                 follow_UP,
                 website,
                 website_INSTRUCTIONS
@@ -114,12 +143,17 @@ INSERT INTO district_1 (
     'Enterprise Washington Garage',
     '917-903-5704',
     '2019-07-17 9:28:30-04',
-    'no',-- --
+    'yes',-- --
     'Juan Carlos',
     '545 Washington Ave, Brooklyn, NY 11238',
+    'call on 7/25/19 to work'
     0
 );
 
+
+
+UPDATE district_1 SET applied  = 'yes' WHERE  company_NAME = 'Enterprise Washington Garage' AND person = 'Juan Carlos';
+UPDATE district_1 SET response = 'call on 7/25/19 to work' WHERE  company_NAME = 'Enterprise Washington Garage' AND person = 'Juan Carlos';
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -290,3 +324,41 @@ INSERT INTO district_1 (
 
 
 
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Friends crown heights',
+    '718-638-8686',
+    '2019-07-24 9:45:00-04',
+    'no',
+    '671 prospect pl  Brooklyn, NY 11216',
+    'Come  visit us',
+    0
+
+);
+
+
+671 prospect pl
+212 883 1041
+
+miguel
