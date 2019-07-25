@@ -350,12 +350,438 @@ INSERT INTO district_1 (
     'Friends crown heights',
     '718-638-8686',
     '2019-07-24 9:45:00-04',
-    'no',
+    'yes',
     '671 prospect pl  Brooklyn, NY 11216',
     'Come  visit us',
     0
 
 );
+
+
+UPDATE district_1 SET applied  = 'yes' WHERE  company_NAME = 'Friends crown heights';
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Ideal',
+    '2019-07-24 10:58:00-04',
+    'yes',
+    'Mario',
+    '720 washington ave  Brooklyn, NY 11238',
+    0
+
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Community Counseling Mdttn Supportive Housing',
+    '2019-07-24 10:30:00-04',
+    'yes',
+    'Mario',
+    '691 Prospect Pl Brooklyn, NY 11216',
+    0
+
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Sunny skies preschool',
+    '718-372-4665',
+    'info@sunnyskiespreschool.com',
+    '2019-07-24 11:05:00-04',
+    'no',
+    'Mr. Simon',
+    '720 washington ave Brooklyn, NY 11238',
+    0
+
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Vienna Express Laundromat',
+    '2019-07-24 11:05:00-04',
+    'yes',
+    'Lisa',
+    '711 Franklin ave Brooklyn, NY 11238',
+    0
+
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Jack perlemeter',
+    '718-258-2900',
+    'Info@perlgroup.com',
+    '2019-07-24 11:22:00-04',
+    'yes',
+    'Jack',
+    '1448 bedford ave Brooklyn, NY 11216',
+    0
+
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'N k expeess inc',
+    '718-484-0314',
+    '2019-07-24 11:32:00-04',
+    'yes',
+    'Elizabeth',
+    '88 rogers ave n park pl, NY 11216',
+    0
+
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Brightpoint health',
+    '718-681-8700',
+    '2019-07-24 11:32:00-04',
+    'yes',
+    'Elizabeth',
+    '88 rogers ave n park pl, NY 11216',
+    0
+
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Vere electric corp',
+    '718-783-2930',
+    'Vereelectric@gmail.com',
+    '2019-07-24 13:12:00-04',
+    'yes',
+    'Vere padmore',
+    '726 sterling pl,Brooklyn NY 11216',
+    0
+
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Frank r bell funeral home',
+    '718-399-2500',
+    'Graphics@frankrbellfh.com    anthony@frankrbellfh.com',
+    '2019-07-24 13:13:20-04',
+    'yes',
+    'Emily or anthony',
+    '536 sterling pl,Brooklyn NY 11216',
+    0
+
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Kent security',
+    '212-924-5566',
+    '2019-07-24 13:13:20-04',
+    'no',
+    'Trisha',
+    '150 w 28th suite 1503 NY NY 10001',
+    0,
+    'Rafeal concepion. From 500 sterling pl'
+
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Ambassador realty grouP',
+    '718-230-7500',
+    'Joan@theambassadorre.com',
+    '2019-07-24 13:55:20-04',
+    'yes',
+    'Joan',
+    '463 sterling pl Brooklyn, NY 11238',
+    0
+
+
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Cathloic Charites bk n queens',
+    '718-722-6000',
+    '2019-07-24 14:22:20-04',
+    'no',
+    '191 Joralemon St Brooklyn, NY 11201',
+    0,
+    'Ccbq.org'
+
+
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Cyclecity',
+    '929-277-0752',
+    '2019-07-24 14:38:20-04',
+    'no',
+    '1156 St Johns Pl Brooklyn, NY 11213',
+    0
+    
+    
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+            )
+    VALUES (
+    'Cyclecity',
+    '929-277-0752',
+    '2019-07-24 14:38:20-04',
+    'no',
+    '1156 St Johns Pl Brooklyn, NY 11213',
+    0
+    
+    
+);
+
 
 
 671 prospect pl
