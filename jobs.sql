@@ -146,7 +146,7 @@ INSERT INTO district_1 (
     'yes',-- --
     'Juan Carlos',
     '545 Washington Ave, Brooklyn, NY 11238',
-    'call on 7/25/19 to work'
+    'no hire'
     0
 );
 
@@ -154,6 +154,7 @@ INSERT INTO district_1 (
 
 UPDATE district_1 SET applied  = 'yes' WHERE  company_NAME = 'Enterprise Washington Garage' AND person = 'Juan Carlos';
 UPDATE district_1 SET response = 'call on 7/25/19 to work' WHERE  company_NAME = 'Enterprise Washington Garage' AND person = 'Juan Carlos';
+UPDATE district_1 SET response = 'no hire' WHERE  company_NAME = 'Enterprise Washington Garage' AND person = 'Juan Carlos';
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -757,13 +758,13 @@ INSERT INTO district_1 (
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
-                -- email,
+                email,
                 date_OF_VISIT,
                 applied,
-                -- person,
+                person,
                 address,
                 -- fax,
-                -- response,
+                response,
                 follow_UP
                 -- website
                 -- website_INSTRUCTIONS
@@ -772,15 +773,29 @@ INSERT INTO district_1 (
                 -- appointment_INSTRUCTIONS
             )
     VALUES (
-    'Cyclecity',
-    '929-277-0752',
-    '2019-07-24 14:38:20-04',
+    'Community advocate',
+    '347-515-9282',
+    'marknextlevel@aol.com',
+    '2019-07-24 14:56:20-04',
     'no',
-    '1156 St Johns Pl Brooklyn, NY 11213',
+    'Buchel and Marcud',
+    '1396 St Johns Pl Brooklyn, NY 11213',
+    'email me your resume',
     0
     
     
 );
+
+
+
+Community advocate
+347 515 9282
+Marknextlevel@aol.com
+7 24 19 2 56 pm
+No
+Buchel m marcud
+
+
 
 
 
