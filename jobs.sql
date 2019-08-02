@@ -179,9 +179,11 @@ INSERT INTO district_1 (
     '2019-07-17 9:31:30-04',
     'no',-- --
     '545 Washington Ave, Brooklyn, NY 11238',
-    0
+    1
 );
 
+
+UPDATE district_1 SET follow_UP  = 1  WHERE  company_NAME = 'Isabella';
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -208,8 +210,10 @@ INSERT INTO district_1 (
     'yes',-- --
     '643 Washington Ave, Brooklyn, NY 11238',
     '888-435-3060',
-    0
+    1
 );
+
+UPDATE district_1 SET follow_UP  = 1  WHERE  company_NAME = 'All creatures vet hospial';
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -233,10 +237,12 @@ INSERT INTO district_1 (
     'no',-- --
     'Kelsea',
     '497 st marks Brooklyn, NY 11238',
-    0
+    1
 );
 
+
 UPDATE district_1 SET applied = 'yes' WHERE  company_NAME = 'Realty within reach' AND email = 'Kelsea@realtywithinreach.com'
+UPDATE district_1 SET follow_UP  = 1  WHERE  company_NAME = 'Realty within reach';
 
 
 INSERT INTO district_1 (
@@ -289,11 +295,12 @@ INSERT INTO district_1 (
     '2019-07-17 16:58:30-04',
     'yes',-- --
     '250 Utica Ave, Brooklyn, NY 11213',
-    0,
+    2,
     'Blinkfitness.com'
 );
 
 
+UPDATE district_1 SET follow_UP  = 2 set phone_NUMBER = '718-844-5335'  WHERE  company_NAME = 'Blink Fitness';
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -803,3 +810,11 @@ Buchel m marcud
 212 883 1041
 
 miguel
+
+BEGIN
+UPDATE district_1 SET follow_UP  = 2  phone_NUMBER = '718-844-5335'  WHERE  company_NAME = 'Blink Fitness';
+UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Friends crown heights';
+UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Sunny skies preschool';
+UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Jack perlemeter';
+
+COMMIT:
