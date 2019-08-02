@@ -811,10 +811,15 @@ Buchel m marcud
 
 miguel
 
-BEGIN
-UPDATE district_1 SET follow_UP  = 2  phone_NUMBER = '718-844-5335'  WHERE  company_NAME = 'Blink Fitness';
+BEGIN;
+UPDATE district_1 SET follow_UP  = 2 , phone_NUMBER = '718-844-5335'  WHERE  company_NAME = 'Blink Fitness';
 UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Friends crown heights';
 UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Sunny skies preschool';
 UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Jack perlemeter';
-
-COMMIT:
+UPDATE district_1 SET follow_UP  = 1 ,response = 'call in the morning'  WHERE  company_NAME = 'N k expeess inc';
+UPDATE district_1 SET follow_UP  = 1   WHERE  company_NAME = 'Vere electric corp';
+UPDATE district_1 SET follow_UP  = 1  ,response = 'call back on monday and ask for emily'   WHERE  company_NAME = 'Frank r bell funeral home';
+UPDATE district_1 SET follow_UP  = 1  ,applied = 'yes' ,response = 'hired'   WHERE  company_NAME = 'Kent security';
+UPDATE district_1 SET follow_UP  = 1    WHERE  company_NAME = 'Ambassador realty grouP';
+UPDATE district_1 SET follow_UP  = 1    WHERE  company_NAME = 'Cyclecity';
+COMMIT;
