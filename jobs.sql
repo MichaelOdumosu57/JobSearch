@@ -1,5 +1,13 @@
 -- db:jobs
 
+-- categories
+-- --------------------------------------------------------
+CREATE TABLE categories (
+    industry                 varchar(5000) PRIMARY KEY
+);
+
+
+-- --------------------------------------------------------
 
 
 -- workforce 1
@@ -101,7 +109,9 @@ CREATE TABLE district_1 (
     website                     varchar(10000),
     website_INSTRUCTIONS        varchar(100000),
     appointment                 varchar(1000),
-    appointment_INSTRUCTIONS    varchar(100000)
+    appointment_INSTRUCTIONS    varchar(100000),
+    referral                    varchar(1000)
+    category                    varchar(1000) references categories(industry)
 );
 
 -- district 1
@@ -111,8 +121,9 @@ ALTER TABLE district_1 ADD COLUMN website varchar(10000);
 ALTER TABLE district_1 ADD COLUMN website_INSTRUCTIONS varchar(100000);
 ALTER TABLE district_1 ADD COLUMN appointment varchar(1000);
 ALTER TABLE district_1 ADD COLUMN appointment_INSTRUCTIONS varchar(100000);
-response
-'no job at this time' - call again later
+ALTER TABLE district_1 ADD COLUMN referral varchar(1000);
+ALTER TABLE district_1 ADD COLUMN category varchar(1000) references categories(industry);
+
 --  --------------------------------------------------------
 
 
@@ -121,6 +132,160 @@ CREATE TABLE district_1 AS
 TABLE applications
 WITH NO DATA;
 
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+            )
+    VALUES (
+    'Realty within reach',
+    '718-221-5302',
+    '2019-08-06 11:2:30-04',
+    'yes',-- --
+    'TJ' -- (HE HIM),
+    '1345 lincoln pl BK NY,11213',
+    'I have nothing for you rihgt now bul ill give you a call',
+    0
+    
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+            )
+    VALUES (
+    'Little Angel',
+    '718-774-7747',
+    '2019-08-06 10:48:30-04',
+    'yes',-- --
+    'john',
+    '1345 lincoln pl BK NY,11213',
+    'I have nothing for you rihgt now bul ill give you a call',
+    0
+    
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+            )
+    VALUES (
+    'Brooklyn kids academy',
+    '718-953-9011',
+    '2019-08-06 10:36:30-04',
+    'yes',-- --
+    'Mrs allie',
+    '1345 lincoln pl BK NY,11213',
+    0
+    
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+            )
+    VALUES (
+    'Sparkle Wash',
+    '347 435 0886',
+    '2019-08-06 10:05:30-04',
+    'yes',-- --
+    'Ali',
+    '1580 st johns pl BK NY,11213',
+    0
+    
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+            )
+    VALUES (
+    'The Original Laundromat',
+    '2019-08-06 9:54:30-04',
+    'no',-- --
+    '1444 st johns pl BK NY,11213',
+    0
+    
+);
+
+
+-- end
 
 INSERT INTO district_1 (
                 company_NAME,
