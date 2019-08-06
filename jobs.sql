@@ -7,6 +7,8 @@ CREATE TABLE categories (
 );
 
 
+INSERT INTO categories (industry) VALUES ('Storage');
+INSERT INTO categories (industry) VALUES ('Storefront');
 -- --------------------------------------------------------
 
 
@@ -135,6 +137,741 @@ WITH NO DATA;
 
 
 
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'St marks day school',
+        '718 756 6602',
+        '2019-08-06 16:57:30-04',
+        'no',
+        '1346 President St, Brooklyn, NY 11213-4335',
+        'Not hiring',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Highlights academy',
+        '718 953 5555',
+        'Highlightsacademy@yahoo.com',
+        '2019-08-06 16:48:30-04',
+        'no',
+        '1688 President St, Brooklyn, NY 11213-4927',
+        'Call tmr',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Effie b early childhood dev center',
+        '718 735 5500',
+        '2019-08-06 16:39:30-04',
+        'no',
+        '1171 Eastern Pkwy, Brooklyn, NY 11213-4107',
+        'No hire',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Modells',
+        '718 772 7179',
+        '2019-08-06 16:06:30-04',
+        'no',
+        '1117 Eastern Pkwy, Brooklyn, NY 11213-4801',
+        'Online look for thks store also look at atlantic mall',
+        0,
+        'Modells.com',
+        'Storefront'
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Bank of america',
+        '718 774 4588',
+        '2019-08-06 15:08:30-04',
+        'no',
+        'Arthur',
+        '781 Eastern Pkwy, Brooklyn, NY 11213-3410',
+        'Online ill pass resume to manager',
+        0,
+        'Bankofamerica.com/career',
+        'Banks'
+);
+
+
+
+
+
+0
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Popular  bank',
+        '800 377 0800',
+        '2019-08-06 14:56:30-04',
+        'no',
+        '539 Eastern Pkwy, Brooklyn, NY 11216-4404',
+        'Online',
+        0,
+        'Popularbank.com',
+        'Banks'
+);
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,/
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Elite preschool',
+        '718 773 5070',
+        '2019-08-06 14:51:30-04',
+        'no',
+        '527 Eastern Pkwy, Brooklyn, NY 11216-4404',
+        'Not hiring',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,/
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Pay o matic',
+        '718 774 7300',
+        '2019-08-06 14:49:30-04',
+        'no',
+        '531 Eastern Pkwy, Brooklyn, NY 11216-4404',
+        'Not hiring',
+        0,
+        'Storefront'
+);
+
+
+
+Pay o matic
+718 774 7300
+8 6 19 2 49 pm
+No
+
+531 Eastern pkwy
+
+Not hiring
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,/
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Vip concierge',
+        '2019-08-06 14:39:30-04',
+        'no',
+        '409 Eastern Pkwy, Brooklyn, NY 11216-4401',
+        '516 741 5564 or 917 943 0020 look for melina garoutsos make sure you follow up here',
+        0,
+        'Front Desk'
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                fax,
+                response,
+                follow_UP,
+                -- website,/
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Chase',
+        '718 804 7165',
+        '2019-08-06 14:31:30-04',
+        'No',
+        '391 eastern pkwy bk ny 11216',
+        '855 800 3678',
+        'Online',
+        0,
+        'Banks'
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Capital one',
+        '2019-08-06 14:22:30-04',
+        'No',
+        '341 Eastern Pkwy, Brooklyn, NY 11216-4103',
+        'Online',
+        0,
+        'Capitalone.com/careers',
+        'Banks'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Laundry city',
+        '347 384 1173',
+        '2019-08-06 14:10:30-04',
+        'No',
+        '1566 Bedford Ave, Brooklyn, NY 11225-1308',
+        'Come after 3 and look for the lady',
+        0,
+        'Laundromat'
+        
+
+);
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        
+        'Indenpendent living association',
+        '718 852 2000',
+        '2019-08-06 13:56:30-04',
+        'No',
+        'Nicole sawyer',
+        '1435 Union St, Brooklyn, NY 11213-4337',
+        0,
+        'DSP'
+        
+
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral,
+                category
+            )
+    VALUES (
+
+        'T mobile',
+        '718 467 1980',
+        '2019-08-06 13:47:30-04',
+        'No',
+        '300 Utica Ave, Brooklyn, NY 11213-4943',
+        'Online',
+        0,
+        'Kyle manager referaal',
+        'Storefront'
+
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Safeguard self storage',
+        '718 363 3360',
+        'Sss190107@safeguardit.com',
+        '2019-08-06 13:32:30-04',
+        'No',
+        'Craig manager',
+        '1206 east ny ave bk ny 11212',
+        'Online',
+        0,
+        'Www.safeguardit.com',
+        'Storage'
+
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral,
+                category
+            )
+    VALUES (
+        'Gamestop',
+        '347 738 9063',
+        '2019-08-06 13:20:30-04',
+        'Yes',
+        'Devin',
+        '1110 Eastern Pkwy, Brooklyn, NY 11213-4802',
+        'Hiring in september',
+        0,
+        'Referred by Imhotp',
+        'Storefront'
+        
+
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Apple bank',
+        '2019-08-06 11:52:30-04',
+        'No',
+        '318 Albany Ave, Brooklyn, NY 11213-4429',
+        'Online',
+        0,
+        'Applebank.com/Careers'
+
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Jewish childrens museum',
+        '718 467 0600',
+        'Job@jcm.museum',
+        '2019-08-06 11:46:30-04',
+        'No',
+        '792 Eastern Pkwy, Brooklyn, NY 11213-3502',
+        'Email resume',
+        0
+
+
+);
+
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'T mobile',
+        '2019-08-06 11:37:30-04',
+        'No',
+        '838 Nostrand Ave, Brooklyn, NY 11225-1508',
+        'Go online',
+        0
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'The museum house',
+        '718 650 5805',
+        '2019-08-06 11:23:30-04',
+        'No',
+        '805 Washington ave bk ny 11213',
+        'Not hiring rn',
+        0
+
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Lincoln postal',
+        '718 230 9505',
+        '2019-08-06 11:18:30-04',
+        'Yes',
+        '463 Lincoln Pl, Brooklyn, NY 11238-6201',
+        0
+);
+
+
+
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
@@ -152,6 +889,7 @@ INSERT INTO district_1 (
                 -- appointment,
                 -- appointment_INSTRUCTIONS
                 -- referral
+                -- category
             )
     VALUES (
     'Realty within reach',
@@ -163,6 +901,36 @@ INSERT INTO district_1 (
     'I have nothing for you rihgt now bul ill give you a call',
     0
     
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Law office',
+        '718 855 9595',
+        '2019-08-06 11:09:30-04',
+        'No',
+        '801 Franklin Ave Brooklyn, NY 11238',
+        'Were not hiring.rn',
+        0
 );
 
 
