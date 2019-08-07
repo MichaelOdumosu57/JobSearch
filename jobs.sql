@@ -1,3 +1,9 @@
+gotta apply to bank of america
+'781 Eastern Pkwy, Brooklyn, NY 11213-3410',
+
+
+
+
 -- db:jobs
 
 -- categories
@@ -198,7 +204,7 @@ INSERT INTO district_1 (
         '2019-08-06 16:48:30-04',
         'no',
         '1688 President St, Brooklyn, NY 11213-4927',
-        'Call tmr',
+        'Not hiring',
         0,
         'Front Desk'
 );
@@ -266,7 +272,7 @@ INSERT INTO district_1 (
         'Modells',
         '718 772 7179',
         '2019-08-06 16:06:30-04',
-        'no',
+        'yes',
         '1117 Eastern Pkwy, Brooklyn, NY 11213-4801',
         'Online look for thks store also look at atlantic mall',
         0,
@@ -302,7 +308,7 @@ INSERT INTO district_1 (
         'Bank of america',
         '718 774 4588',
         '2019-08-06 15:08:30-04',
-        'no',
+        'yes',
         'Arthur',
         '781 Eastern Pkwy, Brooklyn, NY 11213-3410',
         'Online ill pass resume to manager',
@@ -420,15 +426,6 @@ INSERT INTO district_1 (
 
 
 
-Pay o matic
-718 774 7300
-8 6 19 2 49 pm
-No
-
-531 Eastern pkwy
-
-Not hiring
-
 
 
 INSERT INTO district_1 (
@@ -455,9 +452,9 @@ INSERT INTO district_1 (
         '2019-08-06 14:39:30-04',
         'no',
         '409 Eastern Pkwy, Brooklyn, NY 11216-4401',
-        '516 741 5564 or 917 943 0020 look for melina garoutsos make sure you follow up here',
+        '516 741 5564  email resume to  bobs@ibotu.org',
         0,
-        'Front Desk'
+        'Front Desk',
 );
 
 
@@ -1755,4 +1752,16 @@ UPDATE district_1 SET follow_UP  = 1  ,response = 'call back on monday and ask f
 UPDATE district_1 SET follow_UP  = 1  ,applied = 'yes' ,response = 'hired'   WHERE  company_NAME = 'Kent security';
 UPDATE district_1 SET follow_UP  = 1    WHERE  company_NAME = 'Ambassador realty grouP';
 UPDATE district_1 SET follow_UP  = 1    WHERE  company_NAME = 'Cyclecity';
+COMMIT;
+
+
+BEGIN;
+UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME = 'Bank of america' AND address = '781 Eastern Pkwy, Brooklyn, NY 11213-3410';
+UPDATE district_1 SET applied  = 'yes' ,response = 'not hiring' WHERE  company_NAME = 'Highlights academy' AND address = '1688 President St, Brooklyn, NY 11213-4927';
+UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME = 'Modells' AND address ='1117 Eastern Pkwy, Brooklyn, NY 11213-4801';
+UPDATE district_1 SET response  = '516 741 5564  email resume to  bobs@ibotu.org'  WHERE  company_NAME = 'Vip concierge' AND address ='409 Eastern Pkwy, Brooklyn, NY 11216-4401';
+UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'T mobile' AND address ='838 Nostrand Ave, Brooklyn, NY 11225-1508';
+UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'Gamestop' AND address ='1110 Eastern Pkwy, Brooklyn, NY 11213-4802';
+UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'Jewish childrens museum' AND address = '792 Eastern Pkwy, Brooklyn, NY 11213-3502';
+
 COMMIT;
