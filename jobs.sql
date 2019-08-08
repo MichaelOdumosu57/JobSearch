@@ -311,7 +311,7 @@ INSERT INTO district_1 (
         'yes',
         'Arthur',
         '781 Eastern Pkwy, Brooklyn, NY 11213-3410',
-        'Online ill pass resume to manager',
+        'no hire 6 months',
         0,
         'Bankofamerica.com/career',
         'Banks'
@@ -1763,5 +1763,11 @@ UPDATE district_1 SET response  = '516 741 5564  email resume to  bobs@ibotu.org
 UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'T mobile' AND address ='838 Nostrand Ave, Brooklyn, NY 11225-1508';
 UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'Gamestop' AND address ='1110 Eastern Pkwy, Brooklyn, NY 11213-4802';
 UPDATE district_1 SET applied  = 'yes'  WHERE  company_NAME =  'Jewish childrens museum' AND address = '792 Eastern Pkwy, Brooklyn, NY 11213-3502';
+COMMIT;
 
+
+BEGIN;
+UPDATE district_1 SET response ='no hire 6 months' WHERE company_NAME = 'Bank of america';
+UPDATE district_1 SET response ='no hire 6 months' WHERE  company_NAME = 'T mobile';
+UPDATE district_1 SET response ='wait for mngr for a call' WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
 COMMIT;
