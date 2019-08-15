@@ -143,7 +143,7 @@ WITH NO DATA;
 
 
 
-
+BEGIN;
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
@@ -263,13 +263,12 @@ INSERT INTO district_1 (
         '212 406 0030',
         '2019-08-13 15:44:30-04',
         'no',
-        'Florence comeau',
         '49 crown st, Brooklyn, NY 11225',
         'Ask for property manager for 49 crown st',
         0,
         'Front Desk'
 );
-
+COMMIT;
 
 INSERT INTO district_1 (
                 company_NAME,
