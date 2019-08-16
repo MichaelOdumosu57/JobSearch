@@ -1899,7 +1899,7 @@ UPDATE district_1 SET response ='wait for mngr for a call' WHERE company_NAME = 
 COMMIT;
 
 
-BEGIN
+BEGIN;
 UPDATE district_1 SET applied ='yes' ,follow_UP = 1 ,response = 'call back tomorrow morning'  WHERE company_NAME = 'Vip concierge';
 UPDATE district_1 SET phone_NUMBER = '718-802-0666', fax = '718-858-9493', category = 'Front Desk' ,follow_UP = 1  WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
 UPDATE district_1 SET phone_NUMBER = 'store:718-802-0666, craig:347-348-0410', fax = '718-858-9493', category = 'Front Desk' ,follow_UP = 1  WHERE company_NAME = 'Safeguard self storage';
@@ -1908,3 +1908,12 @@ UPDATE district_1 SET response = 'they will get back to you', follow_UP = 1  WHE
 UPDATE district_1 SET fax = '718 230 9505' ,phone_NUMBER = '718 230 9500', follow_UP = 1 , response = 'manager said if we want you will call you'  WHERE company_NAME = 'Lincoln postal';
 COMMIT;
 
+
+
+BEGIN;
+UPDATE district_1 SET follow_UP = 1 ,response = 'left a message to leticia'  WHERE company_NAME = 'Stellar mgnt';
+UPDATE district_1 SET follow_UP = 1 ,response = 'send an email a week later asking to rent then hopefully the words slip out' WHERE company_NAME = 'Halycon';
+UPDATE district_1 SET follow_UP = 2,response = 'wait till monday just keep looking' , phone_NUMBER = '516 741 5564'  WHERE company_NAME = 'Vip concierge';
+UPDATE district_1 SET follow_UP = 2 ,response = 'call back tuesday'   WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
+UPDATE district_1 SET follow_UP = 2 ,response = 'email me your resume and call every week'   WHERE company_NAME = 'Safeguard self storage';
+COMMIT;
