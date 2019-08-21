@@ -1,4 +1,8 @@
 /node_modules
 package*
 jobs.json
+<<<<<<< HEAD
 *ultraObject*
+=======
+./ultraObject.js
+>>>>>>> 9b3244a511964ed7cf2eaf4c52468d4b8b6dd3e0

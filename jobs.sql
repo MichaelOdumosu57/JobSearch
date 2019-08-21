@@ -1915,6 +1915,7 @@ UPDATE district_1 SET follow_UP = 2,response = 'wait till monday just keep looki
 UPDATE district_1 SET follow_UP = 2 ,response = 'call back tuesday'   WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
 UPDATE district_1 SET follow_UP = 2 ,response = 'email me your resume and call every week'   WHERE company_NAME = 'Safeguard self storage';
 COMMIT;
+<<<<<<< HEAD
 
 
 BEGIN;
@@ -1939,3 +1940,5 @@ COMMIT;
 
 
 
+=======
+>>>>>>> 9b3244a511964ed7cf2eaf4c52468d4b8b6dd3e0
