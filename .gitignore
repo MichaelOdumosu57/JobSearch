@@ -1,2 +1,4 @@
 /node_modules
 package*
+jobs.json
+*ultraObject*

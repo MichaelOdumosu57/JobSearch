@@ -1,5 +1,3 @@
-gotta apply to bank of america
-'781 Eastern Pkwy, Brooklyn, NY 11213-3410',
 
 
 
@@ -143,7 +141,7 @@ WITH NO DATA;
 
 
 
-
+BEGIN;
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
@@ -263,13 +261,12 @@ INSERT INTO district_1 (
         '212 406 0030',
         '2019-08-13 15:44:30-04',
         'no',
-        'Florence comeau',
         '49 crown st, Brooklyn, NY 11225',
         'Ask for property manager for 49 crown st',
         0,
         'Front Desk'
 );
-
+COMMIT;
 
 INSERT INTO district_1 (
                 company_NAME,
@@ -1900,7 +1897,7 @@ UPDATE district_1 SET response ='wait for mngr for a call' WHERE company_NAME = 
 COMMIT;
 
 
-BEGIN
+BEGIN;
 UPDATE district_1 SET applied ='yes' ,follow_UP = 1 ,response = 'call back tomorrow morning'  WHERE company_NAME = 'Vip concierge';
 UPDATE district_1 SET phone_NUMBER = '718-802-0666', fax = '718-858-9493', category = 'Front Desk' ,follow_UP = 1  WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
 UPDATE district_1 SET phone_NUMBER = 'store:718-802-0666, craig:347-348-0410', fax = '718-858-9493', category = 'Front Desk' ,follow_UP = 1  WHERE company_NAME = 'Safeguard self storage';
@@ -1908,4 +1905,37 @@ UPDATE district_1 SET response = 'no hire', follow_UP = 2  WHERE company_NAME = 
 UPDATE district_1 SET response = 'they will get back to you', follow_UP = 1  WHERE company_NAME = 'Jewish childrens museum';
 UPDATE district_1 SET fax = '718 230 9505' ,phone_NUMBER = '718 230 9500', follow_UP = 1 , response = 'manager said if we want you will call you'  WHERE company_NAME = 'Lincoln postal';
 COMMIT;
+
+
+
+BEGIN;
+UPDATE district_1 SET follow_UP = 1 ,response = 'left a message to leticia'  WHERE company_NAME = 'Stellar mgnt';
+UPDATE district_1 SET follow_UP = 1 ,response = 'send an email a week later asking to rent then hopefully the words slip out' WHERE company_NAME = 'Halycon';
+UPDATE district_1 SET follow_UP = 2,response = 'wait till monday just keep looking' , phone_NUMBER = '516 741 5564'  WHERE company_NAME = 'Vip concierge';
+UPDATE district_1 SET follow_UP = 2 ,response = 'call back tuesday'   WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
+UPDATE district_1 SET follow_UP = 2 ,response = 'email me your resume and call every week'   WHERE company_NAME = 'Safeguard self storage';
+COMMIT;
+
+
+BEGIN;
+UPDATE district_1 SET follow_UP = 3 ,response = 'one of these days they give u a call hehe'   WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
+UPDATE district_1 SET follow_UP = 2 ,response = 'call leticia at 4:30 on wed aug 21 2019'  WHERE company_NAME = 'Stellar mgnt';
+UPDATE district_1 SET follow_UP = 1 ,response = 'sent an email'  WHERE company_NAME = 'Sunny skies preschool';
+UPDATE district_1 SET follow_UP = 1 ,response = 'not hiring right now'  WHERE company_NAME = 'Vere electric corp';
+UPDATE district_1 SET follow_UP = 3,response = 'gave another call' ,person='Bob Scalza'  WHERE company_NAME = 'Vip concierge';
+UPDATE district_1 SET follow_UP = 1,response = 'its all individualized, you have to find the building ask if this is nbmanagement and ask for the property manager', email='laura@nbmgmt.com'   WHERE company_NAME = 'Isabella';
+UPDATE district_1 SET follow_UP = 1,response = 'no answer'   WHERE company_NAME = 'Community advocate';
+UPDATE district_1 SET follow_UP = 2,response = 'not hiring the position was filled'   WHERE company_NAME = 'Realty within reach';
+UPDATE district_1 SET follow_UP = 2,response = 'gave phone call and sent another email'   WHERE company_NAME = 'Ambassador realty grouP';
+UPDATE district_1 SET follow_UP = 2,response = 'gave phone call and sent another email'   WHERE company_NAME = 'Ambassador realty grouP';
+UPDATE district_1 SET follow_UP = 1,response = 'call in middle of September'   WHERE company_NAME = 'Gamestop';
+UPDATE district_1 SET follow_UP = 1,response = 'line is always busy'   WHERE company_NAME = 'Modells';
+UPDATE district_1 SET follow_UP = 1,response = 'the museum house'   WHERE company_NAME = 'The museum house';
+UPDATE district_1 SET follow_UP = 1,response = 'the manager mark stepped out he will give you a call'   WHERE company_NAME = 'Blink Fitness';
+UPDATE district_1 SET follow_UP = 3,email = 'cinserillo@safeguardit.com' WHERE company_NAME = 'Safeguard self storage';
+UPDATE district_1 SET follow_UP = 2, response ='need shipping experience'  WHERE company_NAME = 'Lincoln postal';
+COMMIT;
+
+
+
 
