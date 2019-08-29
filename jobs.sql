@@ -138,8 +138,270 @@ CREATE TABLE district_1 AS
 TABLE applications
 WITH NO DATA;
 
+BEGIN;
 
 
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Stop n stor',
+        '718 833 8000',
+        '2019-08-23 12:27:30-04',
+        'yes',
+        'Manager',
+        '200 Empire Blvd Brooklyn, NY 11225',
+        'Corporate  check website',
+        0
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Pls247',
+        '718 773 2121',
+        '2019-08-23 13:12:30-04',
+        'no',
+        'Manager',
+        '993 Nostrand Ave Brooklyn, NY 11225',
+        'Apply online and call after call by 4',
+        0,
+        'Pls247.com'
+        
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Buggy',
+        '347 334 6317',
+        'Hr@joinbuggy.com',
+        '2019-08-23 13:12:30-04',
+        'no',
+        'Aaron',
+        '391 Empire Blvd, Brooklyn, NY 11225',
+        'Imn a month try again',
+        0
+        
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Empire kosher',
+        '718 211 2144',
+        -- 'HR@brooklynkidny.org',
+        '2019-08-23 12:00:30-04',
+        'no',
+        'Yosi',
+        '529e empire blvd',
+        'Imn a month try again',
+        0
+        
+);
+
+ 
+ 
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Empire laundromat',
+        '718 467 5769',
+        -- 'HR@brooklynkidny.org',
+        '2019-08-23 11:54:30-04',
+        'no',
+        '99 Empire Blvd, Brooklyn, NY 11225',
+        'not hring',
+        0
+        
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Laundrytine',
+        '347 789 9578',
+        -- 'HR@brooklynkidny.org',
+        '2019-08-23 11:24:30-04',
+        'no',
+        'Jonathan',
+        '829 Empire Blvd, Brooklyn, NY 11213',
+        'they just hired someone',
+        0
+        
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Brooklyn kids academy',
+        '718 953 9011 no ext',
+        'HR@brooklynkidny.org',
+        '2019-08-02 11:24:30-04',
+        'yes',
+        '250 Utica Ave, Brooklyn, NY 11213',
+        1,
+        'Front Desk'
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                category
+            )
+    VALUES (
+        'Treasure Island',
+        '646 846-9449 ',
+        'Remsenave@tistorage.com',
+        '2019-08-23 11:24:30-04',
+        'yes',
+        '33 Remsen ave, Brooklyn, NY 11225',
+        0,
+        'Front Desk'
+);
+
+COMMIT;
 
 BEGIN;
 INSERT INTO district_1 (
@@ -1915,7 +2177,6 @@ UPDATE district_1 SET follow_UP = 2,response = 'wait till monday just keep looki
 UPDATE district_1 SET follow_UP = 2 ,response = 'call back tuesday'   WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
 UPDATE district_1 SET follow_UP = 2 ,response = 'email me your resume and call every week'   WHERE company_NAME = 'Safeguard self storage';
 COMMIT;
-<<<<<<< HEAD
 
 
 BEGIN;
@@ -1938,7 +2199,16 @@ UPDATE district_1 SET follow_UP = 2, response ='need shipping experience'  WHERE
 COMMIT;
 
 
+UPDATE district_1 SET response = 'ill give you a call when i get something'   WHERE company_NAME = 'Community advocate';
+UPDATE district_1 SET response = 'left a message call again'  WHERE company_NAME = 'Stellar mgnt';
+UPDATE district_1 SET category = 'Front Desk'  WHERE company_NAME = 'Stop n stor';
+UPDATE district_1 SET response = 'how to due online test'  WHERE company_NAME = 'Pls247';
 
 
-=======
->>>>>>> 9b3244a511964ed7cf2eaf4c52468d4b8b6dd3e0
+
+BEGIN
+UPDATE district_1 SET follow_UP = 1 ,response = 'Bruce will give you a call when he comes in' ,person = 'Bruce' WHERE company_NAME = 'Pls247';
+UPDATE district_1 SET follow_UP = 1 ,response = 'left a message' WHERE company_NAME = 'Law office' AND address = '801 Franklin Ave Brooklyn, NY 11238';
+UPDATE district_1 SET follow_UP = 1 ,response = 'wait for hr to call you'  WHERE company_NAME = 'Pay o matic';
+UPDATE district_1 SET follow_UP = 1 ,response = 'mrs dealy comes in at 3', person = 'mrs.dealy'  WHERE company_NAME = 'Elite preschool' AND  address ='527 Eastern Pkwy, Brooklyn, NY 11216-4404';
+UPDATE district_1 SET follow_UP = 1 ,response = Online, person = null WHERE company_NAME = Popular  bankAND address = 539 Eastern Pkwy, Brooklyn, NY 11216-4404;
