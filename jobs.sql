@@ -138,9 +138,677 @@ CREATE TABLE district_1 AS
 TABLE applications
 WITH NO DATA;
 
+
 BEGIN;
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'The brooklyn zinc',
+        '718 878 1713',
+        '2019-09-04 11:18:30-04',
+        'no',
+        '313 St Marks Ave, Brooklyn, NY 11238',
+        'No front desk for 313 st marks',
+        0,
+        'https://www.thebrooklynzinc.com/',
+        'Front Desk'
+);
+
+INSERT INTO district_1 (
+                -- company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral,
+                category
+            )
+    VALUES (
+        '646 600 4003',
+        '2019-09-04 11:18:30-04',
+        'no',
+        'Adam',
+        '313 St Marks Ave, Brooklyn, NY 11238',
+        'Trial 2-3 days',
+        0,
+        'Jay',
+        'Parking'
+       
+);
 
 
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Security USA',
+        '1 212-594-3253',
+        '2019-09-04 11:05:30-04',
+        'no',
+        '336 W 37th St # 450, New York, NY 10018',
+        'come in interview same day',
+        0,
+        'www.securityusainc.com',
+        'Front Desk'
+       
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Narrows mgnt',
+        '718 238 4300',
+        '2019-09-04 10:51:30-04',
+        'no',
+        'JR',
+        '8027 3rd Ave, Brooklyn, NY 11209',
+        '718 238 9060',
+        'Call and ask',
+        0,
+        'Front Desk'
+
+       
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral,
+                category
+            )
+    VALUES (
+        'First service residential ',
+        '212 634 8900',
+        '2019-09-04 10:39:30-04',
+        'no',
+        'Joe',
+        'Call and ask',
+        0,
+        'fsresidential.com',
+        'Referral Jeff 280 st maris',
+        'Front Desk'
+       
+);
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Goldin management',
+        '718 230 2600',
+        '2019-09-04 10:28:30-04',
+        'no',
+        '25 8th Ave, Brooklyn, NY 11217',
+        'Call and ask',
+        0,
+        'Front Desk'
+
+       
+);
+
+COMMIT;
+
+
+
+
+BEGIN;
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral
+                -- category
+            )
+    VALUES (
+        'Key realty',
+        '2019-09-03 17:02:30-04',
+        'no',
+        'Joseph',
+        'Call and ask',
+        0,
+        'Carlos 60 plaza'
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Akam mgnt',
+        '2019-09-03 16:49:30-04',
+        'no',
+        '260 Madison Ave, New York, NY 10016',
+        'Call and ask',
+        0
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral
+                -- category
+            )
+    VALUES (
+        'Quik park',
+        '212 686 9800',
+        '2019-09-03 16:47:30-04',
+        'no',
+        'Mark',
+        'Go online and.apply',
+        0,
+        'Icon.com/parking',
+        'Jimmy referal 1 eqstern pkwy'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Andrews organization',
+        '212 529 5688',
+        '2019-09-03 15:55:30-04',
+        'no',
+        'Property Manager',
+        '666 Broadway, New York, NY 10012',
+        'call',
+        0,
+        'www.andrewsbc.com'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Colony house',
+        '347 768 3417',
+        '2019-09-03 16:03:30-04',
+        'no',
+        'Super freddy',
+        'Ask super mr axelrod go through super',
+        0
+   
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Orcid realty',
+        '2019-09-03 16:12:30-04',
+        'no',
+        'Rarely see manager',
+        0
+   
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                -- category
+            )
+    VALUES (
+        'Maxwell kates',
+        '212 684 8282',
+        '2019-09-03 16:42:30-04',
+        'no',
+        'Job for doorman',
+        0
+   
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral
+                -- category
+            )
+    VALUES (
+        'Leiter mgnt',
+        '718 387 3700',
+        'Service@leitermanagement.com',
+        '2019-09-03 16:32:30-04',
+        'no',
+        '750 Grand St #5s, Brooklyn, NY 11211',
+        'Ask if hiring',
+        0,
+        'Daniel juan carlos'
+   
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                referral
+                -- category
+            )
+    VALUES (
+        'Impact mgnt',
+        '718 898 0190',
+        '2019-09-03 16:37:30-04',
+        'no',
+        'give a call',
+        0,
+        'Roldofro'
+   
+);
+COMMIT;
+
+
+BEGIN;
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+      
+      
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Carpet linoleum',
+        '2019-08-30 11:50:30-04',
+        'no',
+        'A jerk',
+        '120 Empire Blvd, Brooklyn, NY 11225',
+        'a moron dont apply',
+        0
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Western beef',
+        '718 856 1700',
+        '2019-08-30 11:30:30-04',
+        'no',
+        'Jonathan',
+        '44 Empire Blvd, Brooklyn, NY 11225',
+        'Tuesday morning  apply',
+        0
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'World laundry',
+        '718 282 2220',
+        '2019-08-30 11:18:18-04',
+        'yes',
+        'Dave',
+        '99 Empire Blvd, Brooklyn, NY 11225',
+        'If hes interested hell call',
+        0
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Safeguard self stroage',
+        '718 282 6710',
+        '2019-08-30 11:12:12-04',
+        'no',
+        '99 Empire Blvd, Brooklyn, NY 11225',
+        'Go online to contact corporste, Download zip recruiter apply there if u dont get an email ull get a call follow uo via email csnt follow up',
+        0
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Bridgestone Tires',
+        '718 284 6000',
+        '2019-08-30 11:08:08-04',
+        'yes',
+        'Andreas',
+        '1750 Bedford Ave, Brooklyn, NY 11225',
+        'Manager will Look at resume set up interview',
+        0
+);
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP
+                -- website
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral,
+                -- category
+            )
+    VALUES (
+        'Extra space',
+        '2019-08-30 11:04:04-04',
+        'No',
+        '155 empire blvd, Brooklyn, NY 11225',
+        'Call another spot theyre only doing construction rn',
+        0
+);
+
+COMMIT;
+
+
+BEGIN;
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
@@ -2206,9 +2874,27 @@ UPDATE district_1 SET response = 'how to due online test'  WHERE company_NAME = 
 
 
 
-BEGIN
+BEGIN;
 UPDATE district_1 SET follow_UP = 1 ,response = 'Bruce will give you a call when he comes in' ,person = 'Bruce' WHERE company_NAME = 'Pls247';
 UPDATE district_1 SET follow_UP = 1 ,response = 'left a message' WHERE company_NAME = 'Law office' AND address = '801 Franklin Ave Brooklyn, NY 11238';
 UPDATE district_1 SET follow_UP = 1 ,response = 'wait for hr to call you'  WHERE company_NAME = 'Pay o matic';
 UPDATE district_1 SET follow_UP = 1 ,response = 'mrs dealy comes in at 3', person = 'mrs.dealy'  WHERE company_NAME = 'Elite preschool' AND  address ='527 Eastern Pkwy, Brooklyn, NY 11216-4404';
-UPDATE district_1 SET follow_UP = 1 ,response = Online, person = null WHERE company_NAME = Popular  bankAND address = 539 Eastern Pkwy, Brooklyn, NY 11216-4404;
+UPDATE district_1 SET follow_UP = 1 ,response = 'call again another time'  WHERE company_NAME = 'Effie b early childhood dev center' AND address = '1171 Eastern Pkwy, Brooklyn, NY 11213-4107' ;
+UPDATE district_1 SET follow_UP = 1 ,response = 'position was filled'  WHERE company_NAME = 'Highlights academy' AND address = '1688 President St, Brooklyn, NY 11213-4927'
+UPDATE district_1 SET follow_UP = 1 ,response = 'double check with taz hell give me a call' , person = 'Sharifa or taz' WHERE company_NAME = 'Montessori schl' AND address = '24 ford st, Brooklyn, NY 11213';
+UPDATE district_1 SET follow_UP = 1 ,response = 'nothing has come up ' , person = 'Florence comeau' WHERE company_NAME = 'Interlink translation' AND address = '899 franklin.ave, Brooklyn, NY 11225';
+UPDATE district_1 SET follow_UP = 1 ,response = 'aaron will give you a call' , person = 'Aaron' WHERE company_NAME = 'Buggy' AND address = '391 Empire Blvd, Brooklyn, NY 11225';
+UPDATE district_1 SET follow_UP = 1 ,response = 'i emailed corporate try again later' , person = 'Manager' WHERE company_NAME = 'Stop n stor' AND address = '200 Empire Blvd Brooklyn, NY 11225';
+UPDATE district_1 SET follow_UP = 2 ,response = 'ill give you a call when i get something' , person = 'Buchel and Marcud' WHERE company_NAME = 'Community advocate' AND address = '1396 St Johns Pl Brooklyn, NY 11213';
+UPDATE district_1 SET follow_UP = 2 ,response = 'not hiring' , person = 'Jack' WHERE company_NAME = 'Jack perlemeter' AND address = '1448 bedford ave Brooklyn, NY 11216';
+UPDATE district_1 SET follow_UP = 2 ,response = 'not hiring he will give you a call back' , person = 'mark' WHERE company_NAME = 'Blink Fitness' AND address = '250 Utica Ave, Brooklyn, NY 11213';
+UPDATE district_1 SET follow_UP = 2 ,response = 'not hiring right now' , person = 'Vere padmore' WHERE company_NAME = 'Vere electric corp' AND address = '726 sterling pl,Brooklyn NY 11216';
+UPDATE district_1 SET follow_UP = 2 ,response = 'they will get back to you' WHERE company_NAME = 'Jewish childrens museum' AND address = '792 Eastern Pkwy, Brooklyn, NY 11213-3502';
+UPDATE district_1 SET follow_UP = 2 ,response = 'sent an email' , person = 'Mr. Simon' WHERE company_NAME = 'Sunny skies preschool' AND address = '720 washington ave Brooklyn, NY 11238';
+UPDATE district_1 SET follow_UP = 2 ,response = 'sent an email' , person = 'Mr. Simon' WHERE company_NAME = 'Sunny skies preschool' AND address = '720 washington ave Brooklyn, NY 11238';
+UPDATE district_1 SET follow_UP = 2 ,response = 'null' WHERE company_NAME = 'Brooklyn kids academy' AND address = '250 Utica Ave, Brooklyn, NY 11213';
+COMMIT;
+
+BEGIN;
+UPDATE district_1 SET applied = 'yes' WHERE company_NAME = 'Leiter mgnt';
+    
