@@ -1,6 +1,6 @@
 /node_modules
-package*
-jobs.json
+package-lock*
+
 <<<<<<< HEAD
 *ultraObject*
 =======

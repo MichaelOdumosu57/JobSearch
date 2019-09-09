@@ -143,6 +143,103 @@ BEGIN;
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'PBS facility services',
+        '718 878 1713',
+        'dm@pbsfacilityservices.com',
+        '2019-09-05 16:19:30-04',
+        'no',
+        'Demasso',
+        '470 Dean St, Brooklyn, NY 11217',
+        'email and ask',
+        0,
+        'Front Desk'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Greystar',
+        '718 461 3326',
+        '461dean@greystar.com',
+        '2019-09-05 16:23:30-04',
+        'no',
+        'Alicia Taley',
+        '461 dean st',
+        'email and ask',
+        0,
+        'Front Desk'
+);
+COMMIT
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Choice of NY management',
+        '212 982 3600',
+        '2019-09-05 16:34:30-04',
+        'no',
+        '535 dean st',
+        'call and ask',
+        0,
+        'Front Desk'
+);
+BEGIN;
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
                 -- email,
                 date_OF_VISIT,
                 applied,
@@ -2898,3 +2995,17 @@ COMMIT;
 BEGIN;
 UPDATE district_1 SET applied = 'yes' WHERE company_NAME = 'Leiter mgnt';
     
+    
+BEGIN;
+UPDATE district_1 SET response = 'call for something else' WHERE company_NAME = 'Buggy';
+
+
+
+BEGIN;
+
+UPDATE district_1 SET response ='bad email' WHERE company_NAME = 'PBS facility services';
+UPDATE district_1 SET applied  = 'yes', response = 'we will call you friday if we have front desk' WHERE company_NAME = 'Security USA';
+UPDATE district_1 SET email = 'JRD@Narrowsnyc.com',applied = 'yes' WHERE company_NAME = 'Narrows mgnt';
+UPDATE district_1 SET  response = 'confirm interview for 12:45 thursday' WHERE company_NAME = 'Leiter mgnt';
+UPDATE district_1 SET applied = 'yes' WHERE company_NAME = 'Greystar';
+COMMIT;
