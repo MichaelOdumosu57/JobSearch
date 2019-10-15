@@ -139,6 +139,71 @@ TABLE applications
 WITH NO DATA;
 
 
+
+BEGIN;
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'ISSM security',
+        '718 564 6000',
+        'Dispatch@issm.com',
+        '2019-10-14 12:28:30-04',
+        'no',
+        'ms Willis',
+        '695 E 132nd St The Bronx, NY 10454 wait for email with instructions  ',
+        'from 835 Herkimer St Brooklyn, NY 11233',
+        0,
+        'Front Desk'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'United dbt',
+        '2019-10-14 12:17:30-04',
+        'no',
+        '895 Fulton St #4 Brooklyn, NY 11238 ',
+        'Go to site',
+        0,
+        'Front Desk'
+);
+COMMIT;
+
 BEGIN;
 INSERT INTO district_1 (
                 company_NAME,
@@ -3002,10 +3067,17 @@ UPDATE district_1 SET response = 'call for something else' WHERE company_NAME = 
 
 
 BEGIN;
-
 UPDATE district_1 SET response ='bad email' WHERE company_NAME = 'PBS facility services';
 UPDATE district_1 SET applied  = 'yes', response = 'we will call you friday if we have front desk' WHERE company_NAME = 'Security USA';
 UPDATE district_1 SET email = 'JRD@Narrowsnyc.com',applied = 'yes' WHERE company_NAME = 'Narrows mgnt';
 UPDATE district_1 SET  response = 'confirm interview for 12:45 thursday' WHERE company_NAME = 'Leiter mgnt';
 UPDATE district_1 SET applied = 'yes' WHERE company_NAME = 'Greystar';
 COMMIT;
+
+
+
+BEGIN;
+UPDATE district_1 SET follow_UP = 1 ,response = 'come in fill out application' , person = 'Property Manager' , phone_number = '212 529 5688', address = '666 Broadway 12th floor, New York, NY 10012' WHERE company_NAME = 'Andrews organization' ;
+UPDATE district_1 SET follow_UP = 1 ,response = 'Rarely see manager' , phone_number = '212 247 2603', address = '156 W 56th St 6th Fl, New York, NY 10019', category ='Front Desk' WHERE company_NAME = 'Orcid realty' ;
+UPDATE district_1 SET follow_UP = 1 ,response = 'Job for doorman' , category = 'Front Desk' , phone_number = '212 684 8282' ,address = '9 E 38th St New York, NY 10016 ' WHERE company_NAME = 'Maxwell kates';
+"UPDATE district_1 SET follow_UP = 4 ,response = 'I left an message in the voicemail' , person = 'Devon' , category = 'Front Desk' , phone_number = '718-802-0666' ,address = '691 Prospect Pl Brooklyn, NY 11216' WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
