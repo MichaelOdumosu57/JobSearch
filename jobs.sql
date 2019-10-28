@@ -175,10 +175,6 @@ INSERT INTO district_1 (
 );
 
 
-
-
-
-
 INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
@@ -209,9 +205,6 @@ INSERT INTO district_1 (
         0,
         'Front Desk'
 );
-
-
-
 
 
 INSERT INTO district_1 (
