@@ -106,3 +106,14 @@
         "referral": null,
         "category": "Front Desk"
     },    
+
+            'ISSM security',
+        '718 564 6000',
+        'Dispatch@issm.com',
+        '2019-10-14 12:28:30-04',
+        'no',
+        'ms Willis',
+        '695 E 132nd St The Bronx, NY 10454 wait for email with instructions  ',
+        'from 835 Herkimer St Brooklyn, NY 11233',
+        0,
+        'Front Desk'

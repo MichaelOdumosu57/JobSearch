@@ -138,7 +138,289 @@ CREATE TABLE district_1 AS
 TABLE applications
 WITH NO DATA;
 
+BEGIN;
 
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Kings hotel',
+        '347 947 3521',
+        'Kingshotel@hotmail.com',
+        '2019-10-21 10:45:30-04',
+        'no',
+        'Emanuel',
+        '2416 Atlantic Ave Brooklyn, NY 11233',
+        'Call in 3 months',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'August Aichorn',
+        '212 316 9353',
+        '2019-10-21 10:13:30-04',
+        'no',
+        'Carmen Lopez',
+        '2050 Dean St Brooklyn, NY 11233',
+        'Call fr addr',
+        0,
+        'Front Desk'
+);
+
+
+
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Camba',
+        '2019-10-23 10:13:30-04',
+        'no',
+        '331 Saratoga Ave Brooklyn, NY 11233',
+        'go online ',
+        0,
+        'Front Desk'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Nycha',
+        '2019-10-23 10:13:30-04',
+        'no',
+        '333 Thomas S Boyland St Brooklyn, NY 11233, 1634 St Marks Ave Brooklyn, NY 11233',
+        'Come.and inquire at 7 pm ',
+        0,
+        'Front Desk'
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Brooklyn community services',
+        '718 643 9039',
+        '2019-10-23 10:51:30-04',
+        'no',
+        'Rashida', 
+        '1835 Sterling Pl Brooklyn, NY 11233',
+        'Send email ill move it aroung',
+        0,
+        'Front Desk'
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'UNKNOWN',
+        '917 455 9284',
+        '2019-10-23 11:06:30-04',
+        'no',
+        'mrs. Sal', 
+        '1704 St Johns Pl Brooklyn, NY 11233',
+        'Keep calling',
+        0,
+        'Front Desk'
+);
+
+
+INSERT INTO district_1 (
+                company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                -- address,
+                -- fax,
+                response,
+                follow_UP,
+                website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'Volunteers of America',
+        '2019-10-23 11:14:30-04',
+        'no',
+        'Go online',
+        0,
+        'Www.voa-gny.org',
+        'Front Desk'
+);
+
+INSERT INTO district_1 (
+                company_NAME,
+                phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        'United Security services',
+        '646 591 7969',
+        '2019-10-23 11:19:30-04',
+        'no',
+        '327 E 112th St New York, NY 10029',
+        'Call or go',
+        0,
+        'Front Desk'
+);
+INSERT INTO district_1 (
+                -- company_NAME,
+                -- phone_NUMBER,
+                -- email,
+                date_OF_VISIT,
+                applied,
+                -- person,
+                address,
+                -- fax,
+                -- response,
+                follow_UP,
+                -- website,
+                -- website_INSTRUCTIONS
+                -- add_HELPER
+                -- appointment,
+                -- appointment_INSTRUCTIONS
+                -- referral
+                category
+            )
+    VALUES (
+        '2019-10-24 11:18:30-04',
+        'no',
+        '1040 E New York Ave Brooklyn, NY 11212 ',
+        0,
+        'Front Desk'
+);
+COMMIT
 
 BEGIN;
 INSERT INTO district_1 (
