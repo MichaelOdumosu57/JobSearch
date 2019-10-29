@@ -236,68 +236,6 @@ INSERT INTO district_1 (
         'Front Desk'
 );
 
-
-INSERT INTO district_1 (
-                company_NAME,
-                -- phone_NUMBER,
-                -- email,
-                date_OF_VISIT,
-                applied,
-                -- person,
-                address,
-                -- fax,
-                response,
-                follow_UP,
-                -- website,
-                -- website_INSTRUCTIONS
-                -- add_HELPER
-                -- appointment,
-                -- appointment_INSTRUCTIONS
-                -- referral
-                category
-            )
-    VALUES (
-        'Nycha',
-        '2019-10-23 10:13:30-04',
-        'no',
-        '333 Thomas S Boyland St Brooklyn, NY 11233, 1634 St Marks Ave Brooklyn, NY 11233',
-        'Come.and inquire at 7 pm ',
-        0,
-        'Front Desk'
-);
-
-INSERT INTO district_1 (
-                company_NAME,
-                phone_NUMBER,
-                -- email,
-                date_OF_VISIT,
-                applied,
-                person,
-                address,
-                -- fax,
-                response,
-                follow_UP,
-                -- website,
-                -- website_INSTRUCTIONS
-                -- add_HELPER
-                -- appointment,
-                -- appointment_INSTRUCTIONS
-                -- referral
-                category
-            )
-    VALUES (
-        'Brooklyn community services',
-        '718 643 9039',
-        '2019-10-23 10:51:30-04',
-        'no',
-        'Rashida', 
-        '1835 Sterling Pl Brooklyn, NY 11233',
-        'Send email ill move it aroung',
-        0,
-        'Front Desk'
-);
-
-INSERT INTO district_1 (
                 company_NAME,
                 phone_NUMBER,
                 -- email,
@@ -3351,8 +3289,19 @@ COMMIT;
 
 
 
-BEGIN;
+BEGIN;3
 UPDATE district_1 SET follow_UP = 1 ,response = 'come in fill out application' , person = 'Property Manager' , phone_number = '212 529 5688', address = '666 Broadway 12th floor, New York, NY 10012' WHERE company_NAME = 'Andrews organization' ;
 UPDATE district_1 SET follow_UP = 1 ,response = 'Rarely see manager' , phone_number = '212 247 2603', address = '156 W 56th St 6th Fl, New York, NY 10019', category ='Front Desk' WHERE company_NAME = 'Orcid realty' ;
 UPDATE district_1 SET follow_UP = 1 ,response = 'Job for doorman' , category = 'Front Desk' , phone_number = '212 684 8282' ,address = '9 E 38th St New York, NY 10016 ' WHERE company_NAME = 'Maxwell kates';
 "UPDATE district_1 SET follow_UP = 4 ,response = 'I left an message in the voicemail' , person = 'Devon' , category = 'Front Desk' , phone_number = '718-802-0666' ,address = '691 Prospect Pl Brooklyn, NY 11216' WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
+"
+
+BEGIN;
+UPDATE district_1 SET follow_UP = 4 ,response = 'call in 6 months' , person = 'Mario' , category = 'Front Desk' , phone_number = '718-802-0666' ,address = '691 Prospect Pl Brooklyn, NY 11216' WHERE company_NAME = 'Community Counseling Mdttn Supportive Housing';
+UPDATE district_1 SET follow_UP = 2 ,response = 'call again dont mention that you have applied with them send out email', email = 'info@impactremgt.com' , category = 'Front Desk' , phone_number = '718 898 0190' WHERE company_NAME = 'Impact mgnt';
+UPDATE district_1 SET follow_UP = 2 ,response = 'She will give you a call back' , person = 'Ronique' , category = 'Front Desk' , phone_number = '212 684 8282' ,address = '9 E 38th St New York, NY 10016 ' WHERE company_NAME = 'Maxwell kates';
+UPDATE district_1 SET follow_UP = 1 ,response = 'Call and ask' , person = 'Maria' , category = 'Front Desk' , phone_number = '718 230 2600' ,address = '25 8th Ave, Brooklyn, NY 11217' WHERE company_NAME = 'Goldin management';
+UPDATE district_1 SET follow_UP = 4 ,response = 'confirm interview for 12:45 thursday' , category = 'Front Desk' , phone_number = '718 387 3700' ,address = '750 Grand St #5s, Brooklyn, NY 11211' WHERE company_NAME = 'Leiter mgnt';
+--LEFT OFF AT LEITER MGNT
+COMMIT;
+
